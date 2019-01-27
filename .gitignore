@@ -1,4 +1,5 @@
-*
+/*
+/*/
 !.ssh/
 !.bash_aliases
 !.bash_exports
