@@ -25,3 +25,6 @@ if  which brew > /dev/null; then
 		source "$(brew --prefix)/etc/bash_completion.d/hub.bash_completion.sh";
 	fi;
 fi;
+
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
