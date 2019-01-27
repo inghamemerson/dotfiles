@@ -6,6 +6,8 @@ if  which hub > /dev/null; then
   alias git=$hub_path
 fi
 
+alias cph="pwd | pbcopy"
+
 # The rest of my fun git aliases
 alias gl='git pull --prune'
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
