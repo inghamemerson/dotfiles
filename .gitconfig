@@ -51,7 +51,7 @@
 	pager = less -r
 
 	# Use custom `.gitignore`
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/inghamemerson/.gitignore_global
 
 	# Treat spaces before tabs and all kinds of trailing whitespace as an error
 	# [default] trailing-space: looks for spaces at the end of a line
@@ -120,3 +120,9 @@
 
 [url "ssh://git@bitbucket.org/"]
   insteadOf = https://bitbucket.org/
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
