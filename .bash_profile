@@ -1,3 +1,4 @@
+source ~/.profile
 # first thing's first, load in non-version-controlled stuff
 if [ -f ~/.bash_private ]; then . "$HOME/.bash_private"; fi
 
@@ -28,3 +29,5 @@ fi;
 
 bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
+
+source /Users/inghamemerson/.rvm/scripts/rvm
