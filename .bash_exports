@@ -1,6 +1,7 @@
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH=/usr/local/opt/ruby/bin:$PATH
 export PATH=/usr/local/bin/composer:~/.composer/vendor/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
 
 export EDITOR="vim"
 export CLICOLOR=1
