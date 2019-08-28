@@ -27,6 +27,9 @@ if  which brew > /dev/null; then
 	fi;
 fi;
 
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
 
