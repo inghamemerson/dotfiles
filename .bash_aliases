@@ -40,7 +40,3 @@ alias ip='ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d\ -f2'
 alias ip1="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # external ip
 alias ip2="curl -s http://www.showmyip.com/simple/ | awk '{print $1}'"
-
-alias ser-test="terminus env:deploy serenova-site.test --sync-content --note='Updates to Test'"
-alias ser-live="terminus env:deploy serenova-site.live --note='Updates to Live' --cc"
-alias ser-dev="terminus env:deploy serenova-site.dev --sync-content --note='Updates to dev'"

@@ -34,3 +34,4 @@ bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
 
 source /Users/inghamemerson/.rvm/scripts/rvm
+source $(brew --prefix nvm)/nvm.sh
